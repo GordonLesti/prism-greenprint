@@ -1,0 +1,110 @@
+$dark-blue-gray: #383a42;
+$light-green: #b3fcc0;
+$white-green: #fafcfa;
+$green: #42ca5b;
+$middle-gray: #a0a1a7;
+$dark-green: #50a14f;
+$brown: #986801;
+$light-blue: #0184bc;
+$pink: #a626a4;
+$blue: #4078f2;
+$red: #e45649;
+
+$text-color: $dark-blue-gray;
+$text-selected-background-color: $light-green;
+$background-color: $white-green;
+$left-border-color: $green;
+$comment-color: $middle-gray;
+$string-color: $dark-green;
+$number-color: $brown;
+$operator-color: $light-blue;
+$keyword-color: $pink;
+$regex-color: $brown;
+$selector-color: $brown;
+$function-color: $blue;
+$rule-color: $pink;
+$tag-color: $red;
+$punctuation-color: $dark-blue-gray;
+$attr-name-color: $brown;
+$attr-value-color: $dark-green;
+
+$background-image: "img/grid.png";
+
+code[class*="language-"], pre[class*="language-"] {
+    color: $text-color;
+    background: url($background-image) top center $background-color;
+    text-align: left;
+    white-space: pre;
+    word-spacing: normal;
+    word-break: normal;
+    word-wrap: normal;
+    line-height: 1.5;
+
+    -moz-tab-size: 4;
+    -o-tab-size: 4;
+    tab-size: 4;
+
+    -webkit-hyphens: none;
+    -moz-hyphens: none;
+    -ms-hyphens: none;
+    hyphens: none;
+}
+
+pre[class*="language-"]::-moz-selection, pre[class*="language-"] ::-moz-selection,
+code[class*="language-"]::-moz-selection, code[class*="language-"] ::-moz-selection {
+	background: $text-selected-background-color;
+}
+
+pre[class*="language-"]::selection, pre[class*="language-"] ::selection,
+code[class*="language-"]::selection, code[class*="language-"] ::selection {
+	background: $text-selected-background-color;
+}
+
+pre[class*="language-"] {
+    padding: 1em;
+    margin: .5em 0;
+    overflow: auto;
+    border-left: 5px solid $left-border-color;
+}
+
+.token {
+    &.attr-name {
+        color: $attr-name-color;
+    }
+    &.attr-value {
+        color: $attr-value-color;
+    }
+    &.comment {
+        color: $comment-color;
+    }
+    &.function {
+        color: $function-color;
+    }
+    &.keyword {
+        color: $keyword-color;
+    }
+    &.number {
+        color: $number-color;
+    }
+    &.operator {
+        color: $operator-color;
+    }
+    &.punctuation {
+        color: $punctuation-color;
+    }
+    &.regex {
+        color: $regex-color;
+    }
+    &.rule {
+        color: $rule-color;
+    }
+    &.selector {
+        color: $selector-color;
+    }
+    &.string {
+        color: $string-color;
+    }
+    &.tag {
+        color: $tag-color;
+    }
+}

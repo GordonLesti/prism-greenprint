@@ -1,0 +1,20 @@
+{
+  "name": "prism-greenprint",
+  "version": "1.0.0",
+  "description": "Prism syntax highlighting theme greenprint",
+  "main": "themes/prism-greenprint.css",
+  "authors": [
+    "Gordon Lesti <info@gordonlesti.com>"
+  ],
+  "license": "MIT",
+  "keywords": [
+    "prism",
+    "highlight",
+    "theme"
+  ],
+  "homepage": "https://github.com/GordonLesti/prism-greenprint",
+  "ignore": [
+    "**/.*",
+    "node_modules"
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "name": "prism-greenprint",
+  "version": "1.0.0",
+  "description": "Prism syntax highlighting theme greenprint",
+  "keywords": [
+    "prism",
+    "highlight",
+    "theme"
+  ],
+  "author": "Gordon Lesti <info@gordonlesti.com>",
+  "license": "MIT",
+  "dependencies": {
+    "prismjs": "^1.5.1"
+  },
+  "devDependencies": {
+    "grunt": "^1.0.1",
+    "grunt-cli": "^1.2.0",
+    "grunt-contrib-connect": "^1.0.2",
+    "grunt-contrib-sass": "^1.0.0",
+    "grunt-contrib-watch": "^1.0.0",
+    "grunt-jsonlint": "^1.1.0"
+  }
+}
