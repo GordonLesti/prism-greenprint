@@ -30,6 +30,10 @@ $attr-value-color: $dark-green;
 
 $background-image: "img/grid.png";
 
+pre {
+    max-height: 30em;
+}
+
 code[class*="language-"], pre[class*="language-"] {
     color: $text-color;
     background: url($background-image) top center $background-color;
